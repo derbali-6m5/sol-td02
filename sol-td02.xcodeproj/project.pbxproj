@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		84BB9863299087B30071036B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB9862299087B30071036B /* main.swift */; };
+		84BB986C29908A670071036B /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB986B29908A670071036B /* student.swift */; };
+		84BB986E29908A7E0071036B /* student_dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB986D29908A7E0071036B /* student_dao.swift */; };
+		84BB987029908A890071036B /* compte_bancaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB986F29908A890071036B /* compte_bancaire.swift */; };
+		84BB987229908A950071036B /* compte_epargne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB987129908A950071036B /* compte_epargne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		84BB985F299087B30071036B /* sol-td02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sol-td02"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BB9862299087B30071036B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84BB986B29908A670071036B /* student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
+		84BB986D29908A7E0071036B /* student_dao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student_dao.swift; sourceTree = "<group>"; };
+		84BB986F29908A890071036B /* compte_bancaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compte_bancaire.swift; sourceTree = "<group>"; };
+		84BB987129908A950071036B /* compte_epargne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compte_epargne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,21 @@
 		84BB9861299087B30071036B /* sol-td02 */ = {
 			isa = PBXGroup;
 			children = (
+				84BB986A299089B90071036B /* models */,
 				84BB9862299087B30071036B /* main.swift */,
 			);
 			path = "sol-td02";
+			sourceTree = "<group>";
+		};
+		84BB986A299089B90071036B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				84BB986B29908A670071036B /* student.swift */,
+				84BB986D29908A7E0071036B /* student_dao.swift */,
+				84BB986F29908A890071036B /* compte_bancaire.swift */,
+				84BB987129908A950071036B /* compte_epargne.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BB987029908A890071036B /* compte_bancaire.swift in Sources */,
+				84BB986E29908A7E0071036B /* student_dao.swift in Sources */,
+				84BB987229908A950071036B /* compte_epargne.swift in Sources */,
 				84BB9863299087B30071036B /* main.swift in Sources */,
+				84BB986C29908A670071036B /* student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
